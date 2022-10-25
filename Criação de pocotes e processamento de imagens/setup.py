@@ -14,7 +14,7 @@ setup(
     description='My short description', # aqui é colocado uma pequena descrição do pacote
     long_description=page_description, # aqui é colocado uma descrição completa do pacote
     long_description_content_type='text/markdown', # passando o tipo de conteúdo que tem em long description
-    url='my_github_repository_project_link', # aqui é colocado o link do repositório onde está o pacote
+    url='https://github.com/caio-alberto/image_processing.git', # aqui é colocado o link do repositório onde está o pacote
     packages=find_packages(), # aqui é especificado todos os módulos e submódulos do projeto
     install_requires=requirements, # usado quando há dependencias de outros pacotes
     python_requires='>=3.8' # identifica qual versão do python o pacote pode ser executado
