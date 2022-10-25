@@ -7,8 +7,8 @@ with open('requirements.txt', 'r') as f:
         requirements = f.read().splitlines()
 
 setup(
-    name='image_processing', # aqui é colocado o nome do pacote
-    version='0.0.3', # aqui é colocado a versão do pacote, este formato deve ser o recomendado pela pep8
+    name='processing_image', # aqui é colocado o nome do pacote
+    version='0.0.1', # aqui é colocado a versão do pacote, este formato deve ser o recomendado pela pep8
     author= 'caio777', # aqui é colocado o nome do autor do pacote
     author_email='caio777alberto7@gmail.com', # aqui é colocado o e-mail do autor
     description='My short description', # aqui é colocado uma pequena descrição do pacote
